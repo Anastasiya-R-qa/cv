@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "8bit"; 
+  src: url("8bit.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+} 
+
+body {
+  font-family: "8bit";
+  color: #31c110;  
+  background: url(fon.jpg);
+  background-image: url(fon.jpg);
+  background-position-x: left;
+  background-position-y: top;
+  background-size: initial;
+  background-repeat: repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  box-sizing: border-box;
+  margin: 40px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 480px;
+  column-gap: 20px;
+  row-gap: 10px;
+  border-radius: 30px;
+  padding: 40px;
+  border: 2px dotted #31c110;
+}
+
+
+.header__textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header__avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.header__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.header__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.links {
+  width: 480px;
+  margin-bottom: 20px;
+}
+
+.links__header {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+}
+
+.links__container {
+  border: 2px dotted #31c110;
+  list-style-type: none;
+  border-radius: 30px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 20px;
+  gap: 50px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+  border: 2px dotted #31c110;
+  border-radius: 30px;
+  text-align:  center;
+}
+
+.links__title2 {
+  font-size: 14px;
+  font-size: 1.4;
+  text-align: center;
+}
+
+.links__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px;
+  gap: 40px;
+  border-bottom: 0;
+  width: 280px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #31c110;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+.links__title2 {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 0px 0;
+}
